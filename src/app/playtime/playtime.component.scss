@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+div > div {
+  padding: 5px;
+  background-color: pink;
+  border: 1px solid darkorchid;
+  border-radius: 5px;
+  font-size: larger;
+}

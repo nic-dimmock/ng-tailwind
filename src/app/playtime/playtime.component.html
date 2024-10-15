@@ -1,0 +1,25 @@
+
+<!--  justify-center horizontal center, centers items in the container, also center items contents themselves  -->
+<!-- justify-start  justify-center  justify-end -->
+
+<!-- vertical alignment done with items-center -->
+<!-- items-start  items-center  items-end -->
+<div class="flex flex-row gap-2.5 flex-wrap justify-center">
+  <div class="w-10 flex flex-col items-center" *ngFor="let item of items; index as i"> {{ i | number:'2.0' }}
+    <p>X</p>
+  </div>
+</div>
+
+<hr />
+
+<div class="flex">
+<div class="flex-none w-14">
+  01
+</div>
+<div class="flex-initial w-64">
+  02
+</div>
+<div class="flex-initial w-32">
+  03
+</div>
+</div>
